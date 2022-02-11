@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Oswald&family=Source+Serif+4:ital,wght@1,700&display=swap');
+
+
+
+* {
+
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+    background-color: aqua;
+}
+
+#mainMenu {
+	margin:10px;
+	width:520px;
+	font-family: sans-serif;
+    text-align: right;
+    font-size: 21px;
+    margin-left: 58%
+}
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:2px solid #000;
+  text-align: center;
+}
+
+#mainMenu a {
+	display:block;
+	padding: 5px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+
+#mainMenu a:hover {
+	background-color:#3369ff;
+	color:#fff;
+}
+
+#first {
+
+    font-size: 4.5rem;
+     text-align: center;
+}
+
+
+.bts {
+    display:inline-block;
+    padding:0.7em 1.7em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#3369ff;
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    text-align:center;
+    
+ 
+    }
+
+    .btsdecrease , .btsreset,  #btsincrease:active{
+         box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+        }
